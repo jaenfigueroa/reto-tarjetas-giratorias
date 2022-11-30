@@ -182,15 +182,16 @@ hr {
   --color-1: #4ca5ff;
   --color-2: #4f51fc;
 }
-/*FOOTER/////////////////////////*/
-footer {
+
+.contenedor-boton {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  margin-top: 3rem;
 }
 
-footer button {
+.contenedor-boton button {
   background-color: #27b484;
   color: white;
   border: none;
@@ -199,6 +200,21 @@ footer button {
   text-transform: uppercase;
 }
 
-footer button:hover {
+.contenedor-boton button:hover {
   background-color: #209870;
+}
+
+/*FOOTER/////////////////////////*/
+footer {
+  padding: 2rem;
+  text-align: center;
+}
+footer a {
+  color: black;
+  /* font-weight: bold; */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
