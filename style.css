@@ -54,7 +54,7 @@ header h2 {
 
 .tarjeta {
   width: 350px;
-  height: 500px;
+  height: 520px;
   position: relative;
 }
 
@@ -104,14 +104,16 @@ header h2 {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 4rem;
 }
 .contenedor-opciones p {
-  padding: 1.5rem;
+  padding: 1.4rem;
+  color: rgb(91, 91, 91);
 }
 hr {
   width: 100%;
-  opacity: 0.3;
+  border: none;
+  border-top: 1px solid rgba(91, 91, 91, 0.15);
 }
 /* CARA DETRAS */
 .cara-detras {
