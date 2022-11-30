@@ -71,6 +71,9 @@ header h2 {
   background: linear-gradient(-8deg, #fff 62%, var(--color-1) 62%);
   transform: perspective(1000px) rotateY(0deg);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.253);
+
+  display: flex;
+  justify-content: center;
 }
 
 .tarjeta:hover .cara-frontal {
@@ -96,15 +99,19 @@ header h2 {
 }
 
 .contenedor-opciones {
-  width: max-content;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  width: 100%;
   position: absolute;
-  bottom: 4.5rem;
-  color: rgb(111, 111, 111);
+  bottom: 2.5rem;
+}
+.contenedor-opciones p {
+  padding: 1.5rem;
+}
+hr {
+  width: 100%;
+  opacity: 0.3;
 }
 /* CARA DETRAS */
 .cara-detras {
