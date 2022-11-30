@@ -1,4 +1,4 @@
-# Tarjetas Giratorias 🐻
+# Tarjetas Giratorias 🎴
 
 ## 📌 Preview
 
