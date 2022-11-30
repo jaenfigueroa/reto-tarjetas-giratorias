@@ -192,7 +192,8 @@ hr {
 }
 
 .contenedor-boton button {
-  background-color: #219b72;
+  background-color: #1d8563;
+
   color: white;
   border: none;
   padding: 2rem 4rem;
@@ -201,7 +202,7 @@ hr {
 }
 
 .contenedor-boton button:hover {
-  background-color: #1d8160;
+  background-color: #219b72;
 }
 
 /*FOOTER/////////////////////////*/
